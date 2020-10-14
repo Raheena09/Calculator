@@ -1,0 +1,25 @@
+body{
+    max-width: 500px;
+    margin: auto;
+}
+.calculatorRow{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.calculatorRow div{
+    margin: 10px;
+    padding: 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+    cursor: pointer;
+}
+.calculatorRow div:hover{
+    background-color: rgb(231, 145, 15);
+
+}
+#result{
+    background-color: cornflowerblue;
+    height: 60px;
+    text-align: right;
+    padding: 20px;;
+}
